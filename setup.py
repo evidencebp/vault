@@ -8,7 +8,7 @@ except (IOError, ImportError):
 
 setup(
     name='pyvault',
-    version='2.4.4',
+    version='2.4.5',
     description='Python password manager',
     long_description=long_description,
     author='Gabriel Bordeaux',
@@ -24,7 +24,7 @@ setup(
         'tabulate',
         'passwordgenerator',
         'SQLAlchemy==1.4.41',
-        'sqlcipher3==0.4.5'
+        'sqlcipher3==0.5.3'
     ],  # external dependencies
     entry_points={
         'console_scripts': [
